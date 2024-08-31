@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "lineseed-th";
+    src: url(./fonts/LINE_Seed_JP/Desktop/OTF/LINESeedJP_OTF_Th.otf) format(opentype);
+}
+
+@font-face {
+    font-family: "lineseed-rg";
+    src: url(./fonts/LINE_Seed_JP/Desktop/OTF/LINESeedJP_OTF_Rg.otf) format(opentype);
+}
+
+@font-face {
+    font-family: "lineseed-bd";
+    src: url(./fonts/LINE_Seed_JP/Desktop/OTF/LINESeedJP_OTF_Bd.otf) format(opentype);
+}
+
+@font-face {
+    font-family: "lineseed-eb";
+    src: url(./fonts/LINE_Seed_JP/Desktop/OTF/LINESeedJP_OTF_Eb.otf) format(opentype);
+}
+
+@font-face {
+    font-family: "mulla-bd";
+    src: url(./fonts/Non-commercial/Muller/OTF/Muller-Trial-Bold.otf) format(opentype);
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-top: 0px;
+}
+
+h2 {
+    font-family: "lineseed-bd";
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+h3 {
+    font-family: "lineseed-bd";
+    font-size: 20px;
+    margin: 0px;
+}
+
+p {
+    font-family: "lineseed-rg";
+    font-size: 16px;
+    margin: 0px;
+}
+
+ul {
+    margin: 0px;
+    padding-left: 28px;
+
+    list-style-type: square;
+
+    font-family: "lineseed-rg";
+}
+
+li {
+    padding-left: 0px;
+}
+
+.footer {
+    background-color: #376d85;
+    padding-top: 4px;
+    padding-bottom: 8px;
+    .icons {
+        text-align: center;
+        img {
+            width: 25px;
+            height: 25px;
+            filter: brightness(0) saturate(100%) invert(100%) sepia(199%) saturate(100%) ;
+            margin-top: 2%;
+        }
+    }
+    p {
+        color: #ffffff;
+        text-align: center;
+        margin-top: -1%;
+        font-size: 14px;
+    }
+}
+
+.main {
+    margin: 20% 15% 4%;
+    .affiliate {
+        margin-bottom: 10%;
+    }
+
+    .department {
+        margin-bottom: 10%;
+    }
+    .awards {
+        .award {
+            padding-top: 2%;
+            padding-bottom: 2%;
+        }
+        p {
+            margin: 4px 0px 4px;
+            font-family: "lineseed-rg";
+            letter-spacing: 0.05em;
+            line-height: 1.5;
+        }
+        p.date {
+            margin-bottom: 0px;
+            font-family: "lineseed-th";
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 0px;
+        }
+    }
+}
+
+.image {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(./images/head/kaboompics_field-of-grain-18455.jpg);
+    background-size: cover;
+    color: #fff;
+
+    height: 150%;
+
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin-inline: auto;
+
+    text-align: left;
+
+    .name {
+        font-family: "mulla-bd";
+
+        text-align: center;
+        margin-bottom: 0px;
+    }
+    h1 {
+        display: inline-block;
+        text-align: left;
+        margin-bottom: 3%;
+    }
+    p {
+        display: inline-block;
+        text-align: left;
+        font-family: "lineseed-th";
+    }
+}
+
+.contact {
+    font-family: "lineseed-th";
+    color: #a3a3a3;
+
+    margin: 14% 15% 12%;
+}
